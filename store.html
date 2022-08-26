@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Nerds</title>
+    </head>
+    <body>
+<header>
+    <nav>
+        <a href="index.html"><img src="logo.png" alt="логотип"></a>
+        <ul>
+            <li><a href="blank.html">Студия</a></li>
+            <li><a href="blank.html">Клиенты</a></li>
+            <li><a href="inner.html">Магазин</a></li>
+            <li><a href="blank.html">Контакты</a></li>
+        </ul>
+        <a href="blank.html">Корзина</a>
+    </nav>
+</header>
+<main>
+    <h1>Магазин готовых шаблонов</h1>
+    <section>
+        <h2>Фильтр товаров</h2>
+        <form method="get" action="/echo">
+            <fieldset>
+                <legend>Стоимость</legend>
+                <input type="range"><br>
+                <label>от<input type="number" name="min_cost" placeholder="0"></label>
+                <label>до<input type="number" name="max_cost" placeholder="15000"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Сетка:</legend>
+                <ul>
+                    <li><input type="radio" name="grid" value="adaptive" checked>Адаптивная</li>
+                    <li><input type="radio" name="grid" value="fixed">Фиксированная</li>
+                    <li><input type="radio" name="grid" value="rope">Резиновая</li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Особенности:</legend>
+                <ul>
+                    <li><input type="checkbox" name="Slider" checked> Слайдер</li>
+                    <li><input type="checkbox" name="Feauters"> Блок преимуществ</li>
+                    <li><input type="checkbox" name="News" checked> Новости</li>
+                    <li><input type="checkbox" name="Galery"> Галерея</li>
+                    <li><input type="checkbox" name="Basket"> Корзина</li>
+                </ul>
+            </fieldset>
+            <button type="submit">показать</button>
+        </form>
+        
+    </section>
+    <section>
+        <h2>Список товаров</h2>
+        <ul>
+            <li><article>
+                <img src="#" alt="sedona">
+                <h3>Sedona</h3>
+                <p>Информационный сайт для туристов</p>
+                <button>9900 руб.</button>
+             
+            </article></li>
+            <li><article>
+                <img src="#" alt="pink">
+                    <h3>Pink</h3>
+                    <p>Раскрастье мир вокруг Вас</p>
+                    <button>3000 руб.</button>
+            </article></li>
+            <li><article>
+                <img src="#" alt="barbershop borodinskiy">
+                    <h3>barbershop borodinskiy</h3>
+                    <p>брутальные пидорги</p>
+                    <button>6700 руб.</button>
+            </article></li>
+            <li><article>
+                <img src="#" alt="mishka">
+                    <h3>Mishka</h3>
+                    <p>Продажа товаров ручной работы</p>
+                    <button>9000 руб.</button>
+            </article></li>
+            <li><article>
+                <img src="#" alt="a+">
+                    <h3>А+</h3>
+                    <p>Учёба никогда ещё не была такой интересной</p>
+                    <button>4500 руб.</button>
+            </article></li>
+            <li><article>
+               <img src="#" alt="Крафтовый квас">
+                    <h3>Крафтовый квас</h3>
+                    <p>Почувствуй вкус дрожжей</p>
+                    <button>5400 руб.</button>
+                
+            </article></li>
+        </ul>
+    </section>
+    <section>
+        <ul>
+            <li><a>1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">следующая</a></li>
+        </ul>
+    </section>
+    <section>
+        <h2>Карта</h2>
+    </section>
+</main>
+<footer>
+    <ul>
+        <li><a href="#"><img src="#" alt="Вконтакте"></a></li>
+        <li><a href="#"><img src="#" alt="Фейсбук"></a></li>
+        <li><a href="#"><img src="#" alt="Инстаграмм"></a></li>
+    </ul>
+    <p>Давайте дружить, это выгодно!</p>
+    <p>Скидка 10% для друзей из социальных сетей</p>
+</footer>
+</body>
+</html>
